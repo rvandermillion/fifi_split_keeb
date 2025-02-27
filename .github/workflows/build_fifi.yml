@@ -2,8 +2,6 @@ name: Build Fifi gerber files
 
 on:
   push:
-    tags:
-      - 'fifi-v[0-9]+.[0-9]+*'
 
 jobs:
   release-gerber-files:
